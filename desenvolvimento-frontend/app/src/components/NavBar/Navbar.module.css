@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #44475a;
+  padding: 1rem;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #6a6e89;
+}
+
+/* Adiciona espaço entre o ícone e o texto */
+.navLink svg {
+  margin-right: 0.5rem;
+}

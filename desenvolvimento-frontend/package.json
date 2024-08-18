@@ -1,0 +1,11 @@
+{
+  "name": "pucrs-hotwheels",
+  "version": "1.0.0",
+  "description": "Projeto contendo a API e o aplicativo web do PUCRS Hotwheels",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix api\" \"npm run dev --prefix app\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

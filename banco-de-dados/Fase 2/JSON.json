@@ -1,0 +1,76 @@
+{
+  "construtora_codigo": 1,
+  "construtora_nome": "Vitor Madalosso",
+  "construtora_telefone": "2039478580",
+  "construtora_nome_fantasia": "Say Yes Gambiarra",
+  "obras": [
+    {
+      "codigo": 1,
+      "nome": "Reforma Banheiro",
+      "logradouro": "Rua Otavio Correia",
+      "numero": 123,
+      "complemento": null,
+      "trabalhadores": [
+        {
+          "cpf": "12345678901",
+          "nome": "Renato",
+          "salario": 2500.00
+        },
+        {
+          "cpf": "98765432312",
+          "nome": "Geromel",
+          "salario": 3000.00
+        },
+        {
+          "cpf": "23444343444",
+          "nome": "Walter",
+          "salario": 2000.00
+        },
+        {
+          "cpf": "12313454543",
+          "nome": "Soarez",
+          "salario": 1000.00
+        },
+        {
+          "cpf": "65464645666",
+          "nome": "Ferreira",
+          "salario": 4000.00
+        }
+      ]
+    },
+    {
+      "codigo": 2,
+      "nome": "Chale de Madeira",
+      "logradouro": "Avenida Ipiranga",
+      "numero": 456,
+      "complemento": "ao lado da pucrs",
+      "trabalhadores": [
+        {
+          "cpf": "98897897898",
+          "nome": "Diogo",
+          "salario": 2000.00
+        },
+        {
+          "cpf": "54353453453",
+          "nome": "Felipe",
+          "salario": 1000.00
+        },
+        {
+          "cpf": "54534534555",
+          "nome": "Darlan",
+          "salario": 3000.00
+        },
+        {
+          "cpf": "98765432101",
+          "nome": "Lucas",
+          "salario": 2000.00
+        },
+        {
+          "cpf": "45678912301",
+          "nome": "Pedro",
+          "salario": 3500.00
+        }
+      ]
+    }
+  ]
+}

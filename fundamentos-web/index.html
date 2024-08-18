@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Primeiramente, aqui no header utilizo duas fontes do Google Fontes (Open Sans e Poppins) por isso as chamadas aqui no header -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetShop | Home</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <!-- Aqui faço a conexão da minha pagina de style.css e meus scripts.js -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Utilizo tags semânticas para manter boas práticas de HTML e melhor organização do meu CSS -->
+  <div class="page">
+    <nav>
+      <a href="#">
+        <img src="assets/logo.png" alt="Logo Petshop" /><strong>PET</strong><span>SHOP</span>
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Produtos</a>
+          <div class="dropdown-content">
+            <a href="produtos1.html">Ração Seca</a>
+            <a href="produtos2.html">Ração Úmida</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Serviços</a>
+          <div class="dropdown-content">
+            <a href="servicos.html">Banho e Tosa</a>
+          </div>
+        </li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+    <!-- Os layouts hoje em dia utilizam mais flexbox, por isso decidi montar a home dessa forma, imagem e textos com display: flex -->
+    <main>
+      <section>
+        <h1>Produtos <span>exclusivos</span> para seu Pet!</h1>
+        <p>
+          Encontre os melhores produtos e serviços de<strong>
+            altíssima qualidade</strong>.
+          <br />
+          Invista para que seu pet tenha muito mais
+          <strong>qualidade de vida</strong>.
+        </p>
+
+        <a href="cadastro.html">
+          <button>Cadastrar</button>
+        </a>
+      </section>
+      <img src="assets/img.png" alt="Desenho animado de um cachorrinho feliz" />
+    </main>
+
+    <footer>
+      Projeto Fundamentos de Sistemas Web - <span>PUCRS</span> | Feito com
+      <strong>♥ e pressa</strong> by <span>Vitor Madalosso</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

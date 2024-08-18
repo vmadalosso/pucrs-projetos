@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetShop | Serviços</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <nav>
+      <a href="#"><img src="assets/logo.png" alt="Logo Petshop" /><strong>PET</strong><span>SHOP</span></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Produtos</a>
+          <div class="dropdown-content">
+            <a href="produtos1.html">Ração Seca</a>
+            <a href="produtos2.html">Ração Úmida</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Serviços</a>
+          <div class="dropdown-content">
+            <a href="servicos.html">Banho e Tosa</a>
+          </div>
+        </li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <div class="text-section">
+          <h1>Serviços de Banho & Tosa para seu Pet</h1>
+          <p>
+            Oferecemos serviços de banho e tosa para garantir que seu pet
+            fique sempre saudável e feliz. Preencha o formulário abaixo para
+            agendar o próximo cuidado do seu amiguinho!
+          </p>
+        </div>
+
+        <form>
+          <fieldset>
+            <legend>Cadastro do Pet</legend>
+
+            <label for="nomePet">Nome do Pet:</label>
+            <input type="text" id="nomePet" name="nomePet" required />
+
+            <label for="tipoPet">Tipo do Pet:</label>
+            <input type="text" id="tipoPet" name="tipoPet" required />
+
+            <label for="raca">Raça:</label>
+            <input type="text" id="raca" name="raca" required />
+
+            <label for="tempPet">Temperamento:</label>
+            <input type="text" id="tempPet" name="tempPet" required />
+          </fieldset>
+
+          <fieldset>
+            <legend>Agendamento</legend>
+            <label for="servico">Serviço:</label>
+            <select id="servico" name="servico" required>
+              <option value="banho">Banho</option>
+              <option value="tosa">Tosa</option>
+              <option value="ambos">Banho e Tosa</option>
+            </select>
+
+            <label for="dataHora">Data / Hora:</label>
+            <input type="datetime-local" id="dataHora" name="dataHora" required />
+
+            <label for="porte">Porte do Animal:</label>
+            <input type="text" id="porte" name="porte" required />
+
+            <label for="teleBusca">Opção de Tele-Busca:</label>
+            <input type="checkbox" id="teleBusca" name="teleBusca" />
+          </fieldset>
+
+          <button type="submit">Agendar Serviço</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      Projeto Fundamentos de Sistemas Web - <span>PUCRS</span> | Feito com
+      <strong>♥ e pressa</strong> by <span>Vitor Madalosso</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

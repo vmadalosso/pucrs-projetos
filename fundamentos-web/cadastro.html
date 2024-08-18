@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetShop | Cadastro do Cliente</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <nav>
+      <a href="#"><img src="assets/logo.png" alt="Logo Petshop" /><strong>PET</strong><span>SHOP</span></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Produtos</a>
+          <div class="dropdown-content">
+            <a href="produtos1.html">Ração Seca</a>
+            <a href="produtos2.html">Ração Úmida</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Serviços</a>
+          <div class="dropdown-content">
+            <a href="servicos.html">Banho e Tosa</a>
+          </div>
+        </li>
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <div class="signup-section">
+          <h1>Cadastre-se</h1>
+          <p>Preencha o formulário abaixo para criar sua conta.</p>
+        </div>
+        <form action="">
+          <label for="nomeCliente">Nome do Cliente:</label>
+          <input type="text" id="nomeCliente" name="nomeCliente" required />
+
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" required />
+
+          <label for="telefone">Telefone:</label>
+          <input type="number" id="telefone" name="telefone" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <div class="formaContato">
+            <label for="formaContato">Melhor forma de contato:</label>
+            <input type="radio" id="m-tel" name="formaContato" value="m-tel" />
+            <label for="m-tel">Telefone</label>
+
+            <input type="radio" id="m-email" name="formaContato" value="m-email" />
+            <label for="m-email">E-mail</label>
+          </div>
+          <br />
+
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required />
+
+          <label for="confirmarSenha">Confirmar Senha:</label>
+          <input type="password" id="confirmarSenha" name="confirmarSenha" required />
+          <br />
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      Projeto Fundamentos de Sistemas Web - <span>PUCRS</span> | Feito com
+      <strong>♥ e pressa</strong> by <span>Vitor Madalosso</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

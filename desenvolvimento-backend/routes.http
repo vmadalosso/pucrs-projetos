@@ -1,0 +1,49 @@
+### Listar todos os clientes
+GET http://localhost:3001/servcad/clientes
+
+### Listar todos os aplicativos
+GET http://localhost:3001/servcad/aplicativos
+
+### Criar uma nova assinatura
+POST http://localhost:3001/servcad/assinaturas
+Content-Type: application/json
+
+{
+    "codCliente": 1,
+    "codAplicativo": 2
+}
+
+### Atualizar o custo mensal de um aplicativo
+PATCH http://localhost:3001/servcad/aplicativos/1
+Content-Type: application/json
+
+{
+    "custo": 15.99
+}
+
+### Listar todas as assinaturas vigentes
+GET http://localhost:3001/servcad/assinaturas/TODAS
+
+### Listar assinaturas ativas
+GET http://localhost:3001/servcad/assinaturas/ATIVA
+
+### Listar assinaturas canceladas
+GET http://localhost:3001/servcad/assinaturas/CANCELADA
+
+### Listar as assinaturas de um cliente específico
+GET http://localhost:3001/servcad/asscli/1
+
+### Listar as assinaturas de um aplicativo específico
+GET http://localhost:3001/servcad/assapp/1
+
+### Registrar um pagamento
+POST http://localhost:3002/servpag/pagar
+Content-Type: application/json
+
+{
+    "codAssinatura": 1,
+    "valor": 9.99
+}
+
+### Verificar se uma assinatura é válida
+GET http://localhost:3003/servass/validas
