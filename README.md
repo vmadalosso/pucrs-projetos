@@ -15,6 +15,10 @@ Este repositório contém projetos individuais desenvolvidos durante a graduaç�
 
 Cada diretório contém o código-fonte e, quando aplicável, a documentação dos projetos. Os projetos foram realizados como parte do currículo acadêmico e demonstram a aplicação prática dos conceitos aprendidos nas respectivas disciplinas.
 
+## Desenvolvedor
+
+Todos os projetos foram desenvolvidos de forma individual por mim, **Vitor Madalosso**.
+
 ## Licença
 
 Este repositório não possui uma licença específica. O uso e a reprodução dos projetos devem ser feitos respeitando as políticas da PUCRS e os direitos autorais dos conteúdos.
