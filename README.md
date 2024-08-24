@@ -10,6 +10,7 @@ Este repositório contém projetos individuais desenvolvidos durante a graduaç�
 - **`fundamentos-web`**: Projetos que cobrem os fundamentos do desenvolvimento web, incluindo HTML, CSS e JavaScript.
 - **`desenvolvimento-backend`**: Projetos focados no desenvolvimento de sistemas backend, incluindo APIs e gerenciamento de servidores.
 - **`desenvolvimento-frontend`**: Projetos voltados para o desenvolvimento de interfaces de usuário e experiência do usuário (UI/UX).
+- **`seguranca-computacao-nuvem`**: Projetos voltados para a segurança em ambientes de computação em nuvem.
 
 ## Sobre os Projetos
 
