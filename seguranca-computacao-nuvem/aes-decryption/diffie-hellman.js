@@ -35,17 +35,22 @@ function modPow(base, exp, mod) {
     return result;
 }
 
-// Calcular a chave pública de Bob `B`
+// Tarefa 2.1: Calcular a chave pública de Bob `B = g^b mod p`
 const B = modPow(g, b, p);
 
-// Calcular a chave compartilhada `K`
-const K = modPow(A, b, p);
-
-// Calcular o valor de v
+// Tarefa 2.2: Calcular o valor de `v = A^b mod p`
 const v = modPow(A, b, p);
+
+// Tarefa 2.3: Gerar a chave `k` utilizando SHA-256 e pegar os 128 primeiros bits
+const hash = crypto.createHash('sha256').update(v.toString()).digest('hex');
+const k = hash.slice(0, 32); // Pegando os primeiros 128 bits (32 caracteres hexadecimais)
 
 // Exibir os resultados
 console.log('Valor aleatório b:', b.toString());
 console.log('Chave pública de Bob B:', B.toString());
-console.log('Chave compartilhada K:', K.toString());
 console.log('Valor de v:', v.toString());
+console.log('Chave k (128 bits):', k);
+
+// 537771947111686106506058615669571180270168052864543183659311
+
+// ea69c427eebbec1bdbbf40c9053382dc4ae88517b5040fb88bca134a1f549f5b
