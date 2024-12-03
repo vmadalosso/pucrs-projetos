@@ -1,3 +1,4 @@
+import React from 'react'
 import { StatusBar } from 'react-native'
 import {
   useFonts,
@@ -7,12 +8,8 @@ import {
   Inter_700Bold,
 } from '@expo-google-fonts/inter'
 
-import { User } from '@/screens/User'
-import { Album } from '@/screens/Album'
-import { Id } from '@/screens/album/[id]'
-
-import { Home } from '@/screens/Home'
 import { Loading } from '@/components/Loading'
+import { Navigation } from '@/navigation/Navigation'
 
 import '@/styles/global.css'
 
@@ -30,12 +27,12 @@ export default function App() {
 
   return (
     <>
-      <Home />
       <StatusBar
         barStyle={'light-content'}
         backgroundColor="transparent"
         translucent
       />
+      <Navigation />
     </>
   )
 }
